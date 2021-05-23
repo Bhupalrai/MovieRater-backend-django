@@ -23,7 +23,6 @@ class UserSerializer(serializers.ModelSerializer):
         Token.objects.create(user=user)
         return user
 
-        # return super().create(validated_data)
 
 
 class RatingSerializer(serializers.ModelSerializer):
